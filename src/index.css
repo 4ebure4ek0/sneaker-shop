@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+body {
+  margin: 0;
+    font-family: 'Unbounded', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+header img{
+    height: 50px;
+}
+.menu{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 25px;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+}
+.container{
+    margin: 1.5% 5%;
+}
+.catalog_header{
+    display: flex;
+}
+.search{
+    padding: 10px;
+    margin-left: 4%;
+    margin-top: 2%;
+    border-radius: 20px;
+    vertical-align: top;
+}
+.sort{
+    padding: 10px;
+    margin-left: 30%;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+.sort select{
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+}
+.search input{
+    border: 0;
+    font-size: 20px;
+}
+.sneakers{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.add_button{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.sneaker_card{
+    width: 200px;
+    padding: 25px;
+    margin-top: 5%;
+}
+.sneaker_img{
+    height: 170px;
+}
+.card_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.card_price{
+    display: flex;
+    flex-direction: column;
+}
+.add_button{
+    background-color: #ffffff;
+    color: #483948;
+    border: none;
+    height: 40px;
+    border-radius: 40px;
+    width: 200px;
+    cursor: pointer;
+    margin: 0 10%;
+}
+.sneaker_container{
+    border: 1px solid #f3f3f3;
+    border-radius: 40px;
+    margin: 1.5% 0;
+}
+.sneaker_container:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.slider_container{
+    width: 95%;
+    height: 490px;
+    margin: auto auto 10% auto;
+}
+.slider{
+    height: 100%;
+    height: 100%;
+    position: relative;
+}
+.slider_left_arrow{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 32px;
+    cursor: pointer;
+}
+.slider_right_arrow{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 32px;
+    cursor: pointer;
+}
+.slider_dots_container{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+.slider_dot{
+    margin: 0 3px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.brands_container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.brand_card{
+    width: 200px;
+    padding: 10px;
+    margin-top: 5%;
+    border: 1px solid #f3f3f3;
+}
+.brand_card:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.brand_logo{
+    height: 170px;
+    width: 100%;
+}
+.sneaker_page{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 3% 10%;
+}
+
+.sneaker_img_container{
+    width: 60%;
+    height: 500px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 15px;
+}
+.sneaker_text_container{
+    position: absolute;
+    left: 70%;
+}
+.sneaker_text_container button{
+    margin: 20% 0;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #e2dbdb;
+    background-color: #ffffff;
+    font-size: 30px;
+}
+.auth{
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    margin: 9%;
+}
+.auth input, p{
+    font-size: 20px;
+    margin: 0.3%;
+}
+.btn {
+    border: none;
+    background: #ffffff;
+    font-family: 'Unbounded', cursive;
+}
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+}
+.contacts p{
+    width: 350px;
+}
+.page_container{
+    width: 90%;
+    margin: 3% 10%;
+}
+.page_container iframe{
+    margin: 0 0 0 15%;
+    border: 3px solid #c6bcbc;
+}
+.add_page{
+    text-align: center;
+}
+.add_page select, input, button{
+    font-size: 25px;
+    margin: 0.6% 0;
+}
+.add_page_detail{
+    text-align: center;
+}
+.add_sneaker_page_detail input{
+    width: 600px;
+}
+.drawer{
+    margin: 10%;
+}
+.sneaker_drawer_card {
+    border: 1px solid #c6bcbc;
+    margin: 1.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.sneaker_drawer_card img{
+    height: 200px;
+    margin: 5%;
+}
+.sneaker_drawer_card div{
+    height: 200px;
+    margin: 10% 10% 0 0;
+}
+.sneaker_drawer_card button{
+    width: 200px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 30px;
+    color: rgb(179, 100, 100);
+    cursor: pointer;
+}
+.sneaker_drawer_card h3{
+    margin: 14% 0;
+}
+.profile{
+    display: flex;
+}
+.profile p{
+    margin: 8% 0 0 10%;
+}
+.profile button{
+    width: 600px;
+    background-color: #ffffff;
+    border: none;
+}
+.profile_page_img{
+    width: 300px;
+}
+
